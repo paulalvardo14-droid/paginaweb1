@@ -1,0 +1,88 @@
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #a5ebc1;
+  text-align: justify;
+}
+
+/* Barra de navegación en la parte superior */
+.navbar {
+  background-color: #41baeb;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: rgb(7, 6, 6);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: #8c55e4;
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #37aecc;
+  color: rgb(15, 10, 10);
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.titulo-principal {
+  font-size: 24px;
+  text-align: center;
+  flex: 1;
+}
+
+/* Main / secciones */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #9e1212;
+}
+
+h2 {
+  color: #003366;
+  font-size: 20px;
+}
+
+h3 {
+  color: #0055aa;
+  margin-top: 15px;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ol, ul {
+  margin-left: 20px;
+}
+
+/* Iframe (mapa) */
+iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
